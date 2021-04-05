@@ -1,10 +1,14 @@
 {
   "scripts": {
     "dev": "nuxt",
+    "start": "nuxt start",
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "nuxt": "latest",
-    "@nuxtjs/axios": "latest"
+    "@nuxtjs/axios": "^5.4.2",
+    "nuxt": "~2.12.*"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "7.12.17"
   }
 }
